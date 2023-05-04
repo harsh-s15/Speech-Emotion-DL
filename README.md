@@ -8,6 +8,6 @@ training tasks into 2 categories, 1) with the full dataset, and 2) with only 4 o
 emotions being used for observation.
 We also filtered the audio files on the basis of emotion strength (given in the file name
 itself).
-Maximum accuracies were achieved by: MLP with sigmoid activation - 92.21%
-(on time averaged features) in case of 4-label emotion detection tasks; and 1D CNN
-- 64.23% (on prasodic inputs again), in case of full data utilisation for training.
+Maximum accuracies were achieved by: 
+- MLP with sigmoid activation 92.21% (on time averaged features) in case of 4-label emotion detection tasks; 
+- 1D CNN : 64.23% (on prasodic inputs again), in case of full data utilisation for training.
